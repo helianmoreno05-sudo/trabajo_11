@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #2fae5e;
+    color: #333;
+}
+
+.contenido {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos de la ventana de cookies */
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 280px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+/* Ocultar el popup cuando tenga la clase 'hidden' */
+.cookie-popup.hidden {
+    display: none;
+}
+
+/* Botón de cerrar (X) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Icono de galleta */
+.cookie-icon {
+    font-size: 32px;
+}
+
+/* Texto del mensaje */
+.cookie-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Botón de aceptar */
+.accept-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #781c46;
+    color: #f6f3f3;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.accept-btn:hover {
+    background-color: #4f1388;
+}
